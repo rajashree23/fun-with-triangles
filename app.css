@@ -6,7 +6,6 @@ body {
 
 :root {
     --primary-color: #5b21b6;
-    --background-color: #1f2937;
     --text-color: #f9fafb;
 }
 
@@ -27,4 +26,44 @@ a {
     padding: 0.5rem;
     font-weight: 1000;
     font-size: 1rem;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label{
+    padding :2.5rem;
+    font-size: large;
+    font-weight: 600;
+}
+input{
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+button{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem;
+    font-size: medium;
+    color:var(--text-color);
+    border-radius:20px;
+    margin:2rem 2rem;
+
+}
+
+p{
+    font-size: large;
+    font-weight: 600;
+}
+
+#output-box{
+    font-size: large;
+    font-weight: 600; 
 }
